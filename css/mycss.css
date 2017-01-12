@@ -1,0 +1,74 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-item,.nav-link {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    margin-bottom: 2px;
+} 
+.sub-text {
+    color: #777;
+}
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 30px 0 20px 0;
+}
+
+.timeline-panel {
+    list-style-type: none;
+    margin-top: 30px;
+}
+.timeline-image {
+    max-width: 80px;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+.timeline-title {
+    display: inline-block;
+    vertical-align: top;
+}
+.upper {
+    text-transform: uppercase;
+}
+
+.list {
+    margin-top: 20px;
+}
+.list-panel {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+
+.profile-image {
+    width: 230px;
+    height: 230px;
+    margin: 10px 0 30px 0;
+    padding: 8px;
+    background-color: #fff;
+} 
+
+.profile-overview {
+    width: 350px;
+    height: 100%;
+    padding: 30px 30px 100px 30px;
+    background-color: #eee;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.profile-detail {
+    margin-left: 350px;
+    height: 100%;
+    padding: 30px;
+}
