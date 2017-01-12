@@ -1,3 +1,7 @@
+a {
+    color: #007acc;
+}
+
 h1,h2,h3,h4,h5,h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
@@ -6,6 +10,7 @@ h1,h2,h3,h4,h5,h6 {
 .nav-item,.nav-link {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
+    color: #005c99;
     margin-bottom: 2px;
 } 
 .sub-text {
@@ -36,6 +41,10 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     vertical-align: top;
 }
+.timeline-body {
+    color: #555;
+}
+
 .upper {
     text-transform: uppercase;
 }
@@ -48,6 +57,12 @@ h1,h2,h3,h4,h5,h6 {
     padding-top: 10px;
 }
 
+
+.section-heading {
+    padding: 0 0 10px 10px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
 
 .profile-image {
     width: 230px;
@@ -68,7 +83,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .profile-detail {
-    margin-left: 350px;
+    margin: 0 20px 0 350px;
     height: 100%;
     padding: 30px;
 }
