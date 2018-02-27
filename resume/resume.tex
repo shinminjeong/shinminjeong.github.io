@@ -1,0 +1,163 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2007-2014 Todd C. Miller <Todd.Miller@sudo.ws> http://www.sudo.ws/todd
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+\usepackage[empty]{fullpage}
+\usepackage{color}
+\usepackage{bibentry}
+\definecolor{mygrey}{gray}{0.80}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Adjust margins to 0.5in on all sides
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.0in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \colorbox{mygrey}{\begin{minipage}{\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{7.0in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7.5in}{l@{\extracolsep{\fill}}r}
+\textbf{\large Minjeong Shin}  & +61-042-908-5815 (mobile)\\
+40/41 Clare Burton CCT. &  Minjeong.Shin@anu.edu.au \\
+Franklin, ACT 2913, Australia& http://shinminjeong.github.io\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+\resheading{Education}
+\begin{itemize}
+\item
+	\ressubheading{Master of Science in Computer Science}{Daejeon, Korea}{KAIST}{Mar 2009 - Aug 2011}
+	\begin{itemize}
+	    \resitem{Master Thesis: Achieving Bandwidth Guarantees in Virtual Data Centers using the Hose Model}
+		\resitem{Examined network traffic data on on-chip network to introduce a new scalable power-efficient structure}
+	\end{itemize}
+\item
+	\ressubheading{Bachelor of Science in Computer Science}{Daejeon, Korea}{KAIST}{Mar 2004 - Feb 2009}
+
+\vspace{0.1in}
+\item[] Interchange student program, Fudan University, Shanghai, China \hfill\textit{Sep 2006 - Feb 2007}~~~\\
+Summer session program, UCSD, San Diego, USA \hfill\textit{Jul 2006 - Aug 2006}~~~
+\end{itemize}
+
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{Research Engineer}{Australian National University, ACT, Australia}{ANU College of Engineering and Computer Science}{Sep 2016 - Present}
+	\begin{itemize}
+		\resitem{Visualise knowledge graphs by connecting large collections of images and their descriptions.}
+		\resitem{Filter and cluster the extracted media features to automatically generate multimedia event summary documents.}
+	\end{itemize}
+	
+\item
+	\ressubheading{Junior Research Engineer}{LG Electronics, Seoul, Korea}{Creative Innovation Center}{Mar 2011 - May 2015}
+	\begin{itemize}
+		\resitem{Implement IoT devices for control legacy home appliances and new types of wearable devices.}
+		\resitem{Design a new UI/UX platform over Real-time OS and customised Android}
+		\resitem{Build interface protocols between devices and smart phone through Bluetooth and Implement a smart phone application that controls the device.}
+	\end{itemize}
+\item
+	\ressubheading{Research Engineer}{LG Electronics, Seoul, Korea}{Creative Innovation Center}{Aug 2011 - Feb 2013}
+	\begin{itemize}
+		\resitem{Build the interface of touch input sensor for edge-bended phone}
+		\resitem{Responsible for developing new gesture dispatch interfaces for Android frameworks and application, as well as writing a device driver and control firmware for the touch input sensors.}
+	\end{itemize}
+
+\item
+	\ressubheading{Research Intern}{Microsoft Research Asia, Beijing, China}{Wireless \& Network Group}{Aug 2010 - Feb 2011}
+	\begin{itemize}
+		\resitem{Research on the traffic models and topology for data center networks.}
+        \resitem{Introduce a new traffic model considering traffic locality to provide bandwidth guarantees.}
+	\end{itemize}
+
+\item
+	\ressubheading{Campus Ambassador}{Sun Microsystems, INC. Seoul, Korea}{Sun Campus Ambassador}{Sep 2008 - Feb 2009}
+	\begin{itemize}
+		\resitem{Organise the second university Java algorithm contest.}
+        \resitem{Session translator at Sun Tech Day 2008 Seoul}
+	\end{itemize}
+
+\item
+	\ressubheading{Engineering Intern}{Naver Corporation, Seoul, Korea}{Web-robot Development Team}{Mar 2008 - Sep 2008}
+	\begin{itemize}
+		\resitem{Organise the second university Java algorithm contest.}
+        \resitem{Session translator at Sun Tech Day 2008 Seoul}
+	\end{itemize}
+
+\end{itemize}
+
+\pagebreak
+
+
+\nobibliography{publications.bib}
+\bibliographystyle{abbrv}
+\resheading{Publications}
+    \begin{enumerate}
+        \item \bibentry{recsys2017}
+        \item \bibentry{tc2014}
+        \item \bibentry{iccd2011}
+        \item \bibentry{pact2011}
+        \item \bibentry{hotcloud2011}
+    \end{enumerate}
+
+
+\resheading{Patents}
+    \begin{enumerate}
+        \item An insole, A digital device and method for controlling the same (co-inventor), KR 10-2015-0102976
+        \item Mobile terminal and method for controlling the same (co-inventor), KR 10-2015-0093417
+        \item An insole, A mobile terminal and method for controlling the same (co-inventor), KR 10-2015-0082430
+        \item Terminal and method for controlling an output of AV data thereof (co-inventor), KR 10-2014-0021118
+        \item Mobile terminal and method for providing three-dimensional images thereof, KR 10-2014-0021116
+        \item Wearable glass-type device and method of controlling the device (co-inventor), KR 10-2013-0139293
+        \item Mobile terminal, KR 10-2013-0011661
+        \item Routing system and method using torous topology in on-chip network (co-inventor), KR 10-2011-0142500
+    \end{enumerate}
+
+\resheading{Awards}
+    \begin{enumerate}
+        \item Women in Data Science Award, Data to Decisions CRC, Australia, 2017
+    \end{enumerate}
+
+\resheading{Skills}
+
+\begin{description}
+    \item[Programming:] C/C{}\verb!++!, Python, JavaScript, Java, XML, SQL, Matlab, Bash, Unix Shell
+    \item[Operating Systems:] RTOS, Android, Linux, Mac OS X, {\sc UNIX}
+    \item[Web:] Django, HTML, CSS, Bootstrap
+    \item[Software and Tool:] NLTK, Scikit, TensorFlow, Git, Gerrit, Atlassian Tools (Jira, Bitbucket, Confluence), Trace32, Gdb, Keil, IAR, Eclipse, Android Studio
+\end{description}
+
+\begin{itemize}
+    \item[] System Frameworks / UX architecture\\
+    Android application communicating with other devices\\
+    Multithreaded OS structure\\
+    Device Driver and Firmware\\
+    Good troubleshooting / problem solving skills\\
+\end{itemize}
+
+
+\end{document}
