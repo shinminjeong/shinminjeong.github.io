@@ -1,11 +1,11 @@
 a {
-    color: #007acc;
+    color: #007a7a;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .nav-item,.nav-link {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -62,37 +62,52 @@ h1,h2,h3,h4,h5,h6 {
 .section-heading {
     padding: 0 0 10px 10px;
     text-align: left;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+.split {
+    padding: 15px 0 5px 0;
+}
+.border {
+    border-bottom: 1px solid #ddd;
+}
+
+.btn-icon {
+    background-color: #007a7a;
+    color: white;
+    font-size: 16px;
+    padding: 2px;
+    width: 26px;
+    height: 26px;
+}
+
+body {
+    position: absolute;
+    width: 1200px;
+    margin-top: 80px;
+    margin-left: -600px;
+    left: 50%;
 }
 
 .profile-image {
     width: 230px;
     height: 230px;
-    margin: 10px 0 30px 0;
-    padding: 8px;
     background-color: #fff;
-    border: 2px solid white;
-    border-radius: 30px;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .profile-overview {
-    width: 25%;
+    width: 230px;
     height: 100%;
-    min-width: 250px;
-    max-width: 400px;
-    padding: 30px 0 100px 0;
-    background-color: #eee;
-    display: inline-block;
+    float: left;
     vertical-align: top;
-    text-align: center;
 }
 
 .profile-detail {
-    margin-right: 20px;
-    margin-left: 25%;
-    min-width: 600px;
-    max-width: 1000px;
     height: 100%;
-    height: 100%;
-    padding: 30px;
+    width: 950px;
+    padding-left: 50px;
+    float: left;
+    display: inline-block;
 }
