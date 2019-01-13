@@ -110,10 +110,10 @@ body {
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 600px) {
   body {
-    width: 860px;
-    margin-left: -430px;
+    width: 96%;
+    margin-left: -48%;
     margin-top: 20px;
   }
   .profile-info {
