@@ -7,28 +7,32 @@ h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
     /* text-transform: uppercase; */
 }
-.nav-item,.nav-link {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    color: #005c99;
-    margin-bottom: 2px;
-}
 .sub-text {
     color: #777;
 }
-.nav-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+
+.nav-tabs > li {
+    font-size: 16px;
+}
+.nav-tabs > li > a,
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:hover {
+    background-color: white;
+    border: none;
+    color: #666;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+    font-weight: bold;
+    border: none;
+    border-bottom: 3px solid #007a7a;
 }
 
-.container {
-    padding: 30px 0 20px 0;
-}
 
 .timeline-panel {
     list-style-type: none;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .timeline-image {
     max-width: 80px;
@@ -51,11 +55,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .list {
-    margin-top: 20px;
+    margin-left: -20px;
 }
 .list-panel {
     list-style-type: none;
-    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 
@@ -66,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .split {
-    padding: 15px 0 5px 0;
+    padding: 20px 0 15px 0;
 }
 .border {
     border-bottom: 1px solid #ddd;
@@ -79,6 +83,11 @@ h1,h2,h3,h4,h5,h6 {
     padding: 2px;
     width: 26px;
     height: 26px;
+}
+.btn-cv {
+    width:100%;
+    max-width:300px;
+    border: 1px solid #ddd;
 }
 
 body {
@@ -98,11 +107,6 @@ body {
 .profile-info {
     float:left;
     margin-bottom: 20px;
-}
-
-.profile-detail {
-    height: 100%;
-    /* padding-left: 50px; */
 }
 
 /* Small devices (tablets, 768px and up) */
