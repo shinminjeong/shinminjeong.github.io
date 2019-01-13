@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .section-heading {
-    padding: 0 0 10px 10px;
+    padding: 15px 0 10px 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
@@ -83,31 +83,50 @@ h1,h2,h3,h4,h5,h6 {
 
 body {
     position: absolute;
-    width: 1200px;
-    margin-top: 80px;
-    margin-left: -600px;
     left: 50%;
+    max-width: 1024px;
 }
 
 .profile-image {
-    width: 230px;
-    height: 230px;
+    float:left;
+    width: 220px;
+    height: 220px;
     background-color: #fff;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-
-.profile-overview {
-    width: 230px;
-    height: 100%;
-    float: left;
-    vertical-align: top;
+.profile-info {
+    float:left;
+    margin-bottom: 20px;
 }
 
 .profile-detail {
     height: 100%;
-    width: 950px;
+    /* padding-left: 50px; */
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    width: 860px;
+    margin-left: -430px;
+    margin-top: 20px;
+  }
+  .profile-info {
     padding-left: 50px;
-    float: left;
-    display: inline-block;
+    width: 300px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  body {
+    width: 1000px;
+    margin-left: -500px;
+    margin-top: 80px;
+  }
+  .profile-info {
+    padding-left: 0;
+    width: 220px;
+  }
 }
