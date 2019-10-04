@@ -36,28 +36,24 @@
       <nav class="navbar">
         <div id="navbar" class="">
           <ul class="nav nav-tabs">
-            <li class="active"><a href="#work" data-toggle="tab">Work</a></li>
+            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+            <li><a href="#work" data-toggle="tab">Work</a></li>
             <li><a href="#education" data-toggle="tab">Education</a></li>
             <li><a href="#publication" data-toggle="tab">Publication</a></li>
             <li><a href="#patent" data-toggle="tab">Patent</a></li>
-            <li><a href="#contact" data-toggle="tab">Contact</a></li>
+            <!-- <li><a href="#contact" data-toggle="tab">Contact</a></li> -->
           </ul>
         </div>
       </nav>
 
       <div class="tab-content" id="nav-tabContent">
-        <div id="work" class="tab-pane fade in active"></div>
+        <div id="home" class="tab-pane fade in active"></div>
+        <div id="work" class="tab-pane fade"></div>
         <div id="education" class="tab-pane fade"></div>
         <div id="publication" class="tab-pane fade"></div>
         <div id="patent" class="tab-pane fade"></div>
-        <div id="contact" class="tab-pane fade"></div>
+        <!-- <div id="contact" class="tab-pane fade"></div> -->
       </div>
-    </div>
-        <!-- <div id="work"></div>
-        <div id="education"></div>
-        <div id="publication"></div>
-        <div id="patent"></div>
-        <div id="contact"></div> -->
     </div>
   </div>
 </body>
@@ -65,10 +61,11 @@
 <script>
 $(function(){
   $("#intro").load("intro.html");
+  $("#home").load("home.html");
   $("#work").load("work.html");
   $("#education").load("edu.html");
   $("#publication").load("pub.html");
   $("#patent").load("pat.html");
-  $("#contact").load("contact.html");
+  // $("#contact").load("contact.html");
 });
 </script>
